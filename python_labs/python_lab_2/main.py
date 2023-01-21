@@ -28,32 +28,6 @@ def words_to_lowercase(word_array):
     return lowercase_words
 
 def count_words(word_array):
-    """counted_words = []
-
-    word_array_copy = word_array
-
-    word_array.sort()
-
-    past_word = word_array[0]
-    cur_word = ""
-    count = 0
-
-    for word in word_array:
-        cur_word = word
-        if word == past_word:
-            count +=1
-        else:
-            cur_count_and_word = [past_word, count]
-            print(past_word, count)
-            counted_words.append(cur_count_and_word)
-            count = 1
-            past_word = word
-
-    cur_count_and_word = [cur_word, count]
-    counted_words.append(cur_count_and_word)
-
-    return counted_words    """
-
     counted_words = []
 
     contained_words = []
